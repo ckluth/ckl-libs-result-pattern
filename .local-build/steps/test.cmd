@@ -7,7 +7,7 @@ setlocal
 :: Thin wrapper over: dotnet test -c Release
 :: -------------------------------------------------------
 
-cd /d "%~dp0.."
+cd /d "%~dp0..\.."
 
 echo [INFO] dotnet test -c Release ...
 echo.

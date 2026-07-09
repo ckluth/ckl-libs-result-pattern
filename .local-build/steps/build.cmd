@@ -8,10 +8,10 @@ setlocal
 :: -------------------------------------------------------
 
 set "SLNX_FILE="
-for %%F in ("%~dp0..\*.slnx") do set "SLNX_FILE=%%F"
+for %%F in ("%~dp0..\..\*.slnx") do set "SLNX_FILE=%%F"
 
 if not defined SLNX_FILE (
-    echo [ERROR] No .slnx solution found in "%~dp0..\".
+    echo [ERROR] No .slnx solution found in "%~dp0..\..\".
     exit /b 1
 )
 
