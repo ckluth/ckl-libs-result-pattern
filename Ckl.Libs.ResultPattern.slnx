@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Ckl.Libs.ResultPattern/Ckl.Libs.ResultPattern.csproj" />
+  <Project Path="Ckl.Libs.ResultPattern.Tests/Ckl.Libs.ResultPattern.Tests.csproj" />
+</Solution>
